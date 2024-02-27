@@ -1,0 +1,177 @@
+@font-face {
+    font-family: proxima-nova;
+    src: url(/ttf/Proxima\ Nova\ Reg.ttf);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 100%;
+}
+body {
+    font-family: proxima-nova;
+    font-weight: 400;
+    color: #404040;
+    min-height: 100%;
+    background: url(/img/background-pattern.jpg) repeat scroll;
+    background-size: 100px;
+}
+
+
+nav{
+    display: block;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+    padding: 20px;
+    text-align: center;
+    height: 120px;
+    width: 80%;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    list-style-image: none;
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    align-content: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+    text-align: center;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: xx-large;
+}
+
+nav ul li a img{
+    position: relative;
+    top: 5px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+
+#main-content {
+    display: block;
+    padding: 20px;
+}
+
+
+footer {
+    background-color: black;
+    color: lightgray;
+    text-align: center;
+    padding: 20px;
+}
+
+.section {
+    margin-bottom: 30px;
+    padding: 3em;
+    background-image: url(/img/game-background-placeholder.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: lightgray;
+}
+
+.description a h2 {
+    text-decoration: none !important;
+    color: aliceblue;
+}
+
+.description a h2 :hover{
+    text-decoration: underline;
+}
+
+.section a{
+    margin: auto auto;
+}
+
+.section img {
+    max-width: 300px;
+    display: block;
+    margin: auto auto;
+}
+
+.section .description {
+    text-align: center;
+    margin-top: 10px;
+}
+
+a,
+a:link,
+a:visited,
+a:focus,
+a:active {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.course-info{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.instagram{
+    display: flex;
+    width: 100%;
+    background-color: white;
+    justify-items: center;
+    margin-bottom: 5%;
+}
+
+.info{
+    display: flex;
+    background-color: white;
+    width: 100%;
+    margin: 0 auto; 
+    margin-bottom: 5%;
+    padding: 3rem;
+    justify-items: center;
+    flex-direction: column;
+}
+
+@media (min-width: 960px) {
+    .course-info{
+        display: flex;
+        column-count: 2;
+    }
+
+    .info{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .game-list{
+        display: flex;
+        margin-left: 9%;
+    }
+}
