@@ -1,6 +1,6 @@
 @font-face {
     font-family: proxima-nova;
-    src: url(/ttf/Proxima\ Nova\ Reg.ttf);
+    src: url(ttf/Proxima\ Nova\ Reg.ttf);
 }
 * {
     margin: 0;
@@ -16,7 +16,7 @@ body {
     font-weight: 400;
     color: #404040;
     min-height: 100%;
-    background: url(/img/background-pattern.jpg) repeat scroll;
+    background: url(img/background-pattern.jpg) repeat scroll;
     background-size: 100px;
 }
 
@@ -122,7 +122,7 @@ footer {
 .section1 {
     
     padding: 3em;
-    background-image: url(/img/gimnesia_backg.jpg);
+    background-image: url(img/gimnesia_backg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     color: lightgray;
@@ -134,7 +134,7 @@ footer {
 .section2 {
     
     padding: 3em;
-    background-image: url(/img/mythos_backg.jpg);
+    background-image: url(img/mythos_backg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     color: lightgray;
@@ -146,7 +146,7 @@ footer {
 .section3 {
     
     padding: 3em;
-    background-image: url(/img/fallen_backg.jpg);
+    background-image: url(img/fallen_backg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     color: lightgray;
