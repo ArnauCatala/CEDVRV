@@ -6,15 +6,20 @@
         <title>Curso Especialización Desarrollo Videojuegos y Realidad Virtual</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="../css/styles.css">
+        <link rel="stylesheet" href="/css/styles.css">
+        <link rel="stylesheet" href="/css/responsive-nav.css">
+        <script src="/js/responsive-nav.js"></script>
     </head>
     <body>
-        <nav class="container" >
+        <header>
+            <a href="/html/index.html"><img class="logo" src="/img/logo-2.png" alt="Logo" style="height: 50px;"></a>
+            <h1>Curso de Especialización en Desarrollo de Videojuegos y Realidad Virtual</h1>
+        </header>
+        <nav class="nav-collapse" id="menu" >
             <ul>
-                <li><a href="index.html"><img src="/img/logo.png" alt="Logo" style="height: 20px;"></a></li>
-                <li><a href="game1.html">Game 1</a></li>
-                <li><a href="game2.html">Game 2</a></li>
-                <li><a href="game3.html">Game 3</a></li>
+                <li><a href="/html/game1.html">Gimnesia</a></li>
+                <li><a href="/html/game2.html">Mythos From The Ice</a></li>
+                <li><a href="/html/game3.html">Fallen Lamb</a></li>
             </ul>
         </nav>
         
@@ -30,8 +35,30 @@
                         <li>Diseño gráfico 2D y 3D</li>
                         <li>Diseño, gestión, publicación y producción</li>
                     </ul>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Faucibus pulvinar elementum integer enim neque. Ornare quam viverra orci sagittis eu volutpat odio facilisis mauris. Sed arcu non odio euismod lacinia at quis. At imperdiet dui accumsan sit amet nulla facilisi. Libero justo laoreet sit amet cursus sit amet. Orci porta non pulvinar neque laoreet. Vel orci porta non pulvinar neque laoreet suspendisse interdum. Sodales ut eu sem integer vitae justo eget. Sem viverra aliquet eget sit amet tellus cras adipiscing. Dui id ornare arcu odio. Volutpat sed cras ornare arcu dui vivamus arcu felis. Sit amet consectetur adipiscing elit pellentesque habitant morbi tristique. Condimentum vitae sapien pellentesque habitant morbi tristique senectus et.
+                    <p class="description">
+                        Formamos profesionales que pueden dar soluciones Rx a Industria 4.0, Comercio, Turismo...
+                    </p>
+                    <br>
+                    <p class="description">
+                        <h3>Requisitos de acceso:</h3>
+                        <ul>
+                            <li>Técnico Superior en Administración de Sistemas Informáticos en Redes</li>
+                            <li>Técnico Superior en Desarrollo de Aplicaciones Multiplataforma</li>
+                            <li>Técnico Superior en Desarrollo de Aplicaciones Web</li>
+                            <li>Técnico Superior en Animaciones 3D, Juegos y Entornos Interactivos</li>
+                        </ul>
+                    </p>
+                    <p class="description">
+                        <h3>Salidas profesionales:</h3>
+                        <ul>
+                            <li>Programador de Videojuegos</li>
+                            <li>Responsable de pruebas de videojuegos</li>
+                            <li>Responsable del proceso de creación del videojego</li>
+                            <li>Diseñador gráfico 2D y 3D de videojuegos</li>
+                            <li>Desarrollador independiente de videojuegos</li>
+                            <li>Desarrollador de aplicaciones de Realidad Virtual, Aumentada y Mixta</li>
+                            <li>Experto en inteligencia artificial para videojuegos</li>
+                        </ul>
                     </p>
                 </div>
                 <div class="instagram">
@@ -41,27 +68,27 @@
                 
             </div>
             <div class="game-list">
-                <section id="home-section" class="section">
-                    <a href="game1.html"><img src="/img/image-placeholder-vertical.jpg" alt=""></a>
+                <section id="home-section" class="section1">
+                    <a href="/html/game1.html"><img src="/img/Gimnesia.jpg" alt=""></a>
                     <div class="description">
-                        <a href="game1.html"><h2>Game 1</h2></a>
-                        <p>This is the description</p>
+                        <a href="/html/game1.html"><h2>Gimnesia</h2></a>
+                        <p>Mitología Talayótica de Menorca</p>
                     </div>
                 </section>
                 
-                <section id="about-section" class="section">
-                    <a href="game2.html"><img src="/img/image-placeholder-vertical.jpg" alt=""></a>
+                <section id="about-section" class="section2">
+                    <a href="/html/game2.html"><img src="/img/Mythos_from_the_Ice.jpg" alt=""></a>
                     <div class="description">
-                        <a href="game2.html"><h2>Game 2</h2></a>
-                        <p>This is the description</p>
+                        <a href="/html/game2.html"><h2>Mythos from the Ice</h2></a>
+                        <p>Mitología Inuit esquimal</p>
                     </div>
                 </section>
                 
-                <section id="contact-section" class="section">
-                    <a href="game3.html"><img src="/img/image-placeholder-vertical.jpg" alt=""></a>
+                <section id="contact-section" class="section3">
+                    <a href="/html/game3.html"><img src="/img/Fallen_Lamb.jpg" alt=""></a>
                     <div class="description">
-                        <a href="game3.html"><h2>Game 3</h2></a>
-                        <p>This is the description</p>
+                        <a href="/html/game3.html"><h2>Fallen Lamb</h2></a>
+                        <p>Mitología Cristiana</p>
                     </div>
                 </section>
             </div>
@@ -72,5 +99,9 @@
             <p>&copy; 2024 My SPA. All rights reserved.</p>
         </footer>
         
+        <script>
+            var nav = responsiveNav(".nav-collapse");
+          </script>
+
     </body>
 </html>
